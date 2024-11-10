@@ -3,7 +3,9 @@ h1.blog-title {
     font-size: 2em;
     text-align: center;
 }
-
+.blog-info {
+    text-align: center;
+}
 body {
     font-family: Arial, sans-serif;
     color: #333;
