@@ -119,7 +119,7 @@ a[target="_blank"] {
 }
 
 .main-content {
-    max-width: 100%;
+    max-width: 1200px;
     margin-top: 20px;
     padding: 15px;
     background-color: #fafafa;
@@ -133,11 +133,7 @@ a[target="_blank"] {
     text-align: center; 
 }
 
-.main-content img {
-    display: block;  
-    margin: 0 auto;   
-    max-width: 100%;  
-}
+
 
 
 header {
