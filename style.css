@@ -56,7 +56,7 @@ figure {
     margin: 20px;
 }
 
-img.floated-image {
+.floated-image {
     float: right;     
     margin-right: 15px;
     max-width: 300px; 
@@ -64,8 +64,8 @@ img.floated-image {
 }
 
 figcaption {
-    float: right;     
-    width: calc(100% - 315px); 
+    font-size: 0.9em;    
+    color: #666; 
     margin-top: 5px;  
 }
 
