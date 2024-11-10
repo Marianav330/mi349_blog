@@ -170,7 +170,7 @@ tr:nth-child(even) {
     }
 
     img.floated-image {
-        float: none;
+        float: left; 
         margin: 10px 0;
     }
 }
