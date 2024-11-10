@@ -101,17 +101,6 @@ a[target="_blank"] {
 }
 
 
-h1 {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
