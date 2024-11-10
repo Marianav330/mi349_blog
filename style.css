@@ -42,6 +42,16 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+figure {
+    text-align: center; 
+    margin: 20px; 
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #666; 
+    margin-top: 5px; 
+}
 
 
 #main-content {
@@ -52,13 +62,12 @@ nav ul li a {
     margin: auto;
 }
 
-/* Attribute Selector */
+
 a[target="_blank"] {
     color: #007acc;
     text-decoration: underline;
 }
 
-/* Sidebar for Sticky Positioning */
 .sidebar {
     position: sticky;
     top: 10px;
