@@ -51,14 +51,21 @@ nav ul li a {
     font-weight: bold;
 }
 figure {
-    text-align: center; 
-    margin: 20px; 
+    width: 100%;     
+    margin: 20px;
+}
+
+img.floated-image {
+    float: right;     
+    margin-right: 15px;
+    max-width: 300px; 
+    height: auto;   
 }
 
 figcaption {
-    font-size: 0.9em;
-    color: #666; 
-    margin-top: 5px; 
+    float: right;     
+    width: calc(100% - 315px); 
+    margin-top: 5px;  
 }
 
 
@@ -92,14 +99,6 @@ a[target="_blank"] {
 .flex-layout-two-columns .content, .flex-layout-two-columns .sidebar {
     flex: 1;
 }
-
-
-img.floated-image {
-    float: right;
-    margin: 0 15px 10px 0;
-    max-width: 300px;
-}
-
 
 
 h1 {
