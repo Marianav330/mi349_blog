@@ -60,6 +60,7 @@ nav ul li a {
 
 
 .image-container {
+    float: right;
     margin: 20px 0;
     text-align: center;
 }
