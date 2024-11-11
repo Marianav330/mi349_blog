@@ -60,11 +60,6 @@ nav ul li a {
     height: auto;      
 }
 
-figure::after {
-    content: "";
-    display: block;
-    clear: both;
-}
 
 img.floated-image {
     float: right;     
@@ -80,7 +75,6 @@ figure {
 figcaption {
     font-size: 0.9em;    
     color: #666;
-    text-align: center;
     margin-top: 10px; 
     display: block;
 }
