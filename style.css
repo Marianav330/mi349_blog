@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.image-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 .caption {
     font-style: italic;
     color: #666;
