@@ -60,6 +60,12 @@ nav ul li a {
     height: auto;      
 }
 
+figure::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 img.floated-image {
     float: right;     
     margin-right: 15px;
