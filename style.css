@@ -4,23 +4,6 @@
     box-sizing: border-box;
 }
 
-.image-container {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-.caption {
-    font-style: italic;
-    color: #666;
-    margin-top: 5px;
-}
-
-
 h1.blog-title {
     color: #f0f0f0;
     font-size: 2em;
@@ -73,6 +56,25 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+
+.image-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.image-container img {
+    float: right; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.caption {
+    float: right; 
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
 }
 
 .centered-image {
