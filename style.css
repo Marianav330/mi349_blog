@@ -51,10 +51,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-figure {
-    width: 100%;     
-    margin: 20px;
-}
+
 .centered-image {
     display: block;     
     margin-left: auto;   
@@ -69,13 +66,17 @@ img.floated-image {
     max-width: 300px; 
     height: auto;   
 }
-
+figure {
+    width: 100%;
+    margin: 20px 0;
+    display: block; 
+}
 figcaption {
     font-size: 0.9em;    
-    color: #666; 
-    margin-top: 5px;  
-    width: auto;  
-    float: none;
+    color: #666;
+    text-align: center;
+    margin-top: 10px; 
+    display: block;
 }
 
 
