@@ -59,10 +59,24 @@ figure {
 .floated-image {
     float: right;     
     margin-right: 15px;
-    max-width: 300px; 
-    height: auto;   
+    max-width: 300px;
+    height: auto;     
+    width: 100%; 
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
+.container img {
+    max-width: 100%; 
+    height: auto;  
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 figcaption {
     font-size: 0.9em;    
     color: #666; 
@@ -101,22 +115,6 @@ a[target="_blank"] {
     flex: 1;
 }
 
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box; 
-}
-
-.container img {
-    max-width: 100%;   
-    width: 100%;        
-    height: auto;       
-    display: block;    
-    margin: 0 auto;   
-    box-sizing: border-box; 
-}
 
 .main-content {
     max-width: 1200px;
