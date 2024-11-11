@@ -202,7 +202,9 @@ tr:nth-child(even) {
     }
 
     img.floated-image {
-        float: left; 
-        margin: 10px 0;
-    }
+    float: right;     
+    margin-right: 15px;
+    max-width: 300px; 
+    height: auto;   
+}
 }
